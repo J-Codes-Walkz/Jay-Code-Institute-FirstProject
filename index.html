@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cohesive One‑Page Layout</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+    <div class="header-image"></div>
+
+    <nav class="main-nav">
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+</header>
+
+
+    <main>
+
+        <section id="home" class="hero">
+            <h1>Learning to Code</h1>
+            <p>This is a simple one-page layout to showcase the use of HTML & CSS and what you can achieve learning with Code Institute</p>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <p>We are here to help beginners understand the the fundamentals of Software Development, starting right at the beginning with HTML & CSS.</p>
+        </section>
+
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+
+            <div class="service-grid">
+                <article class="service-card">
+                    <h3>Web Design</h3>
+                    <p>Clean, Modern, Professional Layouts</p>
+                </article>
+
+                <article class="service-card">
+    <h3>Development Tools (Click the links below)</h3>
+    <p>
+        <a href="https://www.w3schools.com/html/" target="_blank" rel="noopener">HTML</a>,
+        <a href="https://www.w3schools.com/css/default.asp" target="_blank" rel="noopener">CSS</a>,
+        <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank" rel="noopener">Bootstrap</a>
+    </p>
+</article>
+
+
+                <article class="service-card">
+                    <h3>Learning Resources (Click the links below)</h3>
+                    <p>
+    <a href="https://lms.codeinstitute.net/" target="_blank" rel="noopener">Code Institute</a>,
+    <a href="https://www.youtube.com/@CodeinstituteNet" target="_blank" rel="noopener">YouTube</a>,
+    <a href="https://stackoverflow.com/" target="_blank" rel="noopener">Stack Overflow</a>,
+    <a href="https://copilot.microsoft.com/" target="_blank" rel="noopener">AI Tools</a>
+</p>
+
+                </article>
+            </div>
+          <div> <p> If you would like to find out more and see how we can help guide you in the right direction, get in touch below</p></div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+
+            <form aria-label="Contact Form">
+                <label for="name">Name</label>
+                <input id="name" type="text" required>
+
+                <label for="email">Email</label>
+                <input id="email" type="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 J.Walker</p>
+    </footer>
+
+</body>
+</html>
